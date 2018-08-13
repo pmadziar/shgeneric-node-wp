@@ -1,0 +1,29 @@
+{
+  "name": "shgeneric-node",
+  "version": "1.0.0",
+  "description": "SharePoint helper base on Promises",
+  "main": "dist/shgeneric.js",
+  "dependencies": {
+    "@types/core-js": "^2.5.0",
+    "@types/sharepoint": "^2016.1.1",
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.116",
+    "ts-loader": "^4.4.2",
+    "typescript": "^3.0.1",
+    "webpack": "^4.16.5",
+    "webpack-command": "^0.4.1"
+  },
+  "scripts": {
+    "build": "node .\\node_modules\\webpack\\bin\\webpack.js --debug"
+  },
+  "repository": {},
+  "keywords": [
+    "SharePoint",
+    "Promise"
+  ],
+  "author": "Pawe Madziar <pmadziar@madziar.com>",
+  "license": "ISC",
+  "bugs": {}
+}
